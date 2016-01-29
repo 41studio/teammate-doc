@@ -43,6 +43,12 @@ group :development, :test do
   gem 'spring'
 end
 
+group :development do
+  gem 'capistrano', '~> 3.1'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-passenger'
+end
+
 gem 'camaleon_cms'
 gem 'dotenv-rails'
 
