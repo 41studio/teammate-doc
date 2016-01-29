@@ -16,3 +16,4 @@
 /public/system
 /public/deploy_cache
 /public/cache
+/config/database.yml
